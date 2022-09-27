@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>classroom</groupId>
-  <artifactId>demo</artifactId>
+  <artifactId>demo</artifactId> 
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
 <plugin>
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
-  <version>1.6.0</version>
+  <version> 3.6.3</version>
   <configuration>
    <executable>docker</executable>
     <arguments>
